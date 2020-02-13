@@ -1,14 +1,14 @@
 def speak_to_grandma(say.upcase)
-  say = "I love you grandma!".upcase
-if say =="I love you grandma!".upcase
-    puts "I love you too pumpkin!".upcase
-    elsif say =="Hi nana, how are you?".downcase
-    puts "Huh? speak up sonny!".upcase
-    elsif say =="Hi!".upcase
-    puts "Huh? speak up sonny!".upcase
-    elsif say == "What did you eat today?".downcase
-    puts "No, not since 1938!".upcase
-  else say == "What?".upcase
-    puts "No, not since 1938!".upcase
+  say = "I love you grandma!"
+if say =="I love you grandma!"
+    puts "I love you too pumpkin!"
+    elsif say =="Hi nana, how are you?"
+    puts "Huh? speak up sonny!"
+    elsif say =="Hi!"
+    puts "Huh? speak up sonny!"
+    elsif say == "What did you eat today?"
+    puts "No, not since 1938!"
+  else say == "What?"
+    puts "No, not since 1938!"
   end
 
