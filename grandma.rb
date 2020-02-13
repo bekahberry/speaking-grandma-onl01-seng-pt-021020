@@ -1,4 +1,5 @@
-def speak_to_grandma(say.upcase)
-if say == "
+def speak_to_grandma("phrase")
+if phrase == "PHRASE"
+  puts 
     
 
