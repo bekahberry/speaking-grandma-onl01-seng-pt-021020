@@ -1,4 +1,3 @@
-require_relative "spec_helper"
 def speak_to_grandma(say)
   say = "I love you grandma!".upcase
 if say =="I love you grandma!".upcase
