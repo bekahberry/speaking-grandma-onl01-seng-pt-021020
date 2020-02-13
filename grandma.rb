@@ -1,6 +1,5 @@
 def speak_to_grandma(say.upcase)
-  say = "I love you grandma!"
-if say =="I love you grandma!"
+if say == say.upcase
     puts "I love you too pumpkin!"
     elsif say =="Hi nana, how are you?"
     puts "Huh? speak up sonny!"
