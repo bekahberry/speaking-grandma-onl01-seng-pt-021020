@@ -1,13 +1,15 @@
-# Write a speak_to_grandma method.
+require_relative "spec_helper"
+def speak_to_grandma(say)
+  say = "I love you grandma!".upcase
+if say =="I love you grandma!".upcase
+    puts "I love you too pumpkin!".upcase
+    elsif say =="Hi nana, how are you?".downcase
+    puts "Huh? speak up sonny!".upcase
+    elsif say =="Hi!".upcase
+    puts "Huh? speak up sonny!".upcase
+    elsif say == "What did you eat today?".downcase
+    puts "No, not since 1938!".upcase
+  else say == "What?".upcase
+    puts "No, not since 1938!".upcase
+  end
 
-# Whatever you say to grandma, she should respond with
-# HUH?! SPEAK UP, SONNY!
-# unless you shout it (type in all capitals).
-
-# If you shout, she can hear you (or at least she thinks so) 
-# and yells back
-
-# NO, NOT SINCE 1938!
-
-# However if you say 'I LOVE YOU GRANDMA!', she should respond with
-# 'I LOVE YOU TOO PUMPKIN!'
