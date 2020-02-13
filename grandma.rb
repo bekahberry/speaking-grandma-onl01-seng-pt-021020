@@ -1,4 +1,4 @@
-def speak_to_grandma(say)
+def speak_to_grandma(say.upcase)
   say = "I love you grandma!".upcase
 if say =="I love you grandma!".upcase
     puts "I love you too pumpkin!".upcase
